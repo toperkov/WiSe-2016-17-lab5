@@ -10,7 +10,7 @@ Potrošnja nRF24L01+ radio modula prilikom transmisije/primanja paketa je u *akt
 
 ### Svojstva
 
- - Frekvencijski pojasa 2,4 GHz
+ - Frekvencijski pojas 2,4 GHz
  - 126 radio kanala.
  - Brzina transmisije: 250kbps, 1 and 2Mbps.
  - GFSK modulacija, pojasne širine od 1 or 2MHz
