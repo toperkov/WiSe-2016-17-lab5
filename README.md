@@ -22,10 +22,10 @@ Potrošnja nRF24L01+ radio modula prilikom transmisije/primanja paketa je u *akt
  - 900nA sleep stanje
  - 11.3mA Radio TX na 0dBm
  - 13.3mA Radio RX na 2Mbps
- - Izlazna snaga 0, -6, -12, and -18dBm
- - Osjetljivost -94dBm RX pri 250kbps
- - Osjetljivost -82dBm RX pri 2Mbps
- - Osjetljivost -85dBm RX pri 1Mbps
+ - Izlazna snaga 0, -6, -12, i -18dBm
+ - Osjetljivost -94dBm RX pri 250 Kbps
+ - Osjetljivost -82dBm RX pri 2 Mbps
+ - Osjetljivost -85dBm RX pri 1 Mbps
 
 <img src="https://cloud.githubusercontent.com/assets/8695815/24586100/bd5a43f6-1799-11e7-86cf-223bf6ca8d68.jpg" width="600px" />
 
