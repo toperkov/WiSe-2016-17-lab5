@@ -64,6 +64,8 @@ const byte slaveAddress[5] = {'R','x','G','r','1'};
 
 Vaše nRF24L01+ primopredajnike spojite prema slici koja je dana u nastavku.
 
+<img src="https://cloud.githubusercontent.com/assets/8695815/24586396/2791afe2-17a0-11e7-9d71-6c84ff14d9a4.png" width="400px" />
+
 U direktoriju ``vjezba`` se nalazi kod za transmiter i receiver pa ga testirajte.  
 **NAPOMENA:** za realizaciju današnje vježbe koristit ćemo ``TMRh20`` verziju RF24 biblioteke pa ju je potrebno prethodno instalirati.
 
