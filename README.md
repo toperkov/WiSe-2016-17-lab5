@@ -78,3 +78,11 @@ Domet veoma ovisi o tome nalazi li se naš nRF24L01 vani na otvorenom ili u zatv
  - postavite brzinu transmisije na 250 Kbps naredbom: Set ``radio.setDataRate(RF24_250KBPS);``. Testiraje još neke dostupne brzine: ``RF24_1MBPS``, ``RF24_2MBPS``, ``RF24_250KBPS``,
  - postavite frekvenciju transmisije na radio kanal 108 (ili više); tada se transmisija odvija iznad frekvencije WiFi-a: ``radio.setChannel(108);``
  
+## Korisni linkovi
+ [1] https://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo  
+ [2] http://forum.arduino.cc/index.php?topic=421081.0  
+ [3] http://arduino.stackexchange.com/questions/2946/nrf24l01-pipe-question  
+ [4] https://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P  
+ [5] http://yveaux.blogspot.hr/2014/07/nrf24l01-sniffer-part-1.html
+ [6] https://www.mysensors.org/build/battery  
+  
