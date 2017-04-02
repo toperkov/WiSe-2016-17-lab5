@@ -57,10 +57,10 @@ Kao što se može primjetiti, 9 bitno kontrolno polje sadži informaciju o dulji
 
 # Zadatak
 
-U sklopu današnje vježbe student će ralizirati jedan primopredajnik. Pri tom ćete se podijeliti u grupe po dva uređaja, gdje će jedan uređaj biti predajnik, a drugi prijemnik. Pri tome svaka grupa će koristiti svoj pipe odnosno adresu i to na način da ćete u dijelu koda u kojem se navodi ``slaveAddress``, primjerice za grupu 1 unijeti sljedeću adresu:
+U sklopu današnje vježbe student će ralizirati jedan primopredajnik. Pri tom ćete se podijeliti u grupe po dva uređaja, gdje će jedan uređaj biti predajnik, a drugi prijemnik. Pri tome će svaka grupa koristiti svoj *pipe* odnosno adresu i to na način da ćete u dijelu koda u kojem se navodi ``slaveAddress``, primjerice za grupu 1 unijeti sljedeću adresu:
 
 ```arduino
-const byte slaveAddress[5] = {'R','x','G','r','1'};
+const byte slaveAddress[5] = {'R','x','G','r','1'}; //RxGr1
 ```
 
 Vaše nRF24L01+ primopredajnike spojite prema slici koja je dana u nastavku.
