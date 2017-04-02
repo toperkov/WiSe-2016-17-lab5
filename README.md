@@ -2,7 +2,7 @@
 
 ### FESB, smjer 110/111/112/114/120, akademska godina 2016/2017
 
-Nordic **nRF24L01+** je visoko integrirani primopredajnik male snage (eng. *Ultra Low Power - ULP*) koji može transmitirati brzinom do **2Mbps** na frekvenciji od **2,4GHz** ISM (eng. *Industrial, scientific and medical*). Ove primopredajnici koriste 2,4 GHz nelicencirani pojas poput mnogih WiFi routera, Bluetooth, nekih bežičnih telefona itd. čiji je raspon od **2,400 do 2,525 GHz**. Širina nRF24L01 kanala je 1 MHz što ukupno omogućava **125 nepreklapajućih kanala** (0 .. 124). Da ne bi došlo do interferencije sa WiFi-om predlaže se korištenje 25 najviših kanala. Naime, pri instalaciji Arduino RF24 biblioteke upotrebljava se kanal 76 koji se može promijeniti.
+Nordic **nRF24L01+** je visoko integrirani primopredajnik male potrošnje (eng. *Ultra Low Power - ULP*) koji može transmitirati brzinom do **2Mbps** na frekvenciji od **2,4GHz** ISM (eng. *Industrial, scientific and medical*). Ove primopredajnici koriste 2,4 GHz nelicencirani pojas poput mnogih WiFi routera, Bluetooth, nekih bežičnih telefona itd. čiji je raspon od **2,400 do 2,525 GHz**. Širina nRF24L01 kanala je 1 MHz što ukupno omogućava **125 nepreklapajućih kanala** (0 .. 124). Da ne bi došlo do interferencije sa WiFi-om predlaže se korištenje 25 najviših kanala. Naime, pri instalaciji Arduino RF24 biblioteke upotrebljava se kanal 76 koji se može promijeniti.
 
 <img src="https://cloud.githubusercontent.com/assets/8695815/24585966/1f2fb258-1797-11e7-8946-5fc2f38f7846.jpg" width="300px" height="300px" />
 
