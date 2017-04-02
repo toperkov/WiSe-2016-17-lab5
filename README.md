@@ -38,7 +38,7 @@ gdje ``0x`` označava heksadecimalnu notaciju, dok ``LL`` označava Long Long.
 
 Ako dva ili više transmitera istovremeno prenosu poruku na istom kanalu oni će ometati jedni druge i poruka neće biti prenesena. Razlog tome je što nRF24 **ne može** istovremneno primati poruke sa svih 6 pipe-ova, odnosno sa 6 različitih uređaja. Isto tako može doći do kolizije ako se primjerice istovremeno transmitiraju poruke na istom kanalu na kojem radi neki WiFi sustav. Međutim, kako je za prijenos poruke potrebno veoma mali vremenski interval (nekoliko milisekundi), mala je vjerojatnost interferecije.
 
-<img src="https://cloud.githubusercontent.com/assets/8695815/24586060/07196a40-1799-11e7-92fe-c569bc1f9323.jpg" width="600px" />
+<img src="https://cloud.githubusercontent.com/assets/8695815/24586071/549f5202-1799-11e7-8c24-f000413e6073.png" width="600px" />
 
 ## Format paketa
 
