@@ -50,7 +50,7 @@ Nordic nRF24L01+ podržava tzv "Enhanced Shockburst" mode koji ima sljedeće kar
 
 U nastavku je dan format paketa kojeg nRF24L01+ šalje preko radio kanala:
 
-
+<img src="https://cloud.githubusercontent.com/assets/8695815/24586075/7df737fa-1799-11e7-9e6b-fa889b121e00.png" width="600px" />
 
 Kao što se može primjetiti, 9 bitno kontrolno polje sadži informaciju o duljini *payload-a*, tzv. *PID* za detekciju retransmisija i flag kojom se omogućava/onemogućava slanje *ACK* paketa. Također paket sadrži *CRC*. Primjetite da ukupna nRF24L01+ može prenijeti najviše **32 byte-a** informacije u jednom paketu. Za slanje više informacija poruke će ze razbiti u više manjih paketa.
 
