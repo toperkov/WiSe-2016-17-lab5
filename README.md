@@ -16,7 +16,7 @@ Potrošnja nRF24L01+ radio modula prilikom transmisije/primanja paketa je u *akt
  - GFSK modulacija, pojasne širine od 1 or 2MHz
  - Transmiter: 11.3mA na 0dBm izlazne snage.
  - Napajanje: od 1,9 V do 3,6 V
- - Mala veličina:15mm*29mm
+ - Mala veličina: 15mm*29mm
 
 ### Mala potrošnja snage:
  - 900nA sleep stanje
