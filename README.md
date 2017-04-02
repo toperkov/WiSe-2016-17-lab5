@@ -85,4 +85,4 @@ Domet veoma ovisi o tome nalazi li se naš nRF24L01 vani na otvorenom ili u zatv
  [4] https://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P  
  [5] http://yveaux.blogspot.hr/2014/07/nrf24l01-sniffer-part-1.html  
  [6] https://www.mysensors.org/build/battery  
-  
+ [7] https://maniacbug.wordpress.com/2012/03/30/rf24network/
