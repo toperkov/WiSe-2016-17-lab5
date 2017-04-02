@@ -55,6 +55,7 @@ U nastavku je dan format paketa kojeg nRF24L01+ šalje preko radio kanala:
 
 Kao što se može primjetiti, 9 bitno kontrolno polje sadži informaciju o duljini *payload-a*, tzv. *PID* za detekciju retransmisija i flag kojom se omogućava/onemogućava slanje *ACK* paketa. Također paket sadrži *CRC*. Primjetite da ukupno nRF24L01+ može prenijeti najviše **32 byte-a** informacije u jednom paketu. Za slanje više informacija poruke će ze razbiti u više manjih paketa.
 
+# Zadatak
 
 U sklopu današnje vježbe student će ralizirati jedan primopredajnik. Pri tom ćete se podijeliti u grupe po dva uređaja, gdje će jedan uređaj biti predajnik, a drugi prijemnik. Pri tome svaka grupa će koristiti svoj pipe odnosno adresu i to na način da ćete u dijelu koda u kojem se navodi ``slaveAddress``, primjerice za grupu 1 unijeti sljedeću adresu:
 
