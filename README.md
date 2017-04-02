@@ -29,7 +29,7 @@ Potrošnja nRF24L01+ radio modula prilikom transmisije/primanja paketa je u *akt
 
 <img src="https://cloud.githubusercontent.com/assets/8695815/24586100/bd5a43f6-1799-11e7-86cf-223bf6ca8d68.jpg" width="600px" />
 
-Prilikom transmisije paketa svi uređaji koji slušaju na tom istom radio kanalu će primiti poruku. Transmiter prilikom slanja dodaje adresu primatelja u poruku (tzv. *pipe*) te prijemnik s druge strane ignorira sve poruke koje nemaju njegovu adresu. Ukupna veličina adrese je *5 byte*-ova (40 bitova). Nordic nRF24L01+ modul može istovremeno slušati poruke sa **6 pipe-ova**. Ti pipe-ovi omogućavaju nRF24 istovremeno slušanje poruka sa 6 različitih uređaja koje imaju 6 različitih (jedinstvenih) adresa. Ovo je primjer adresiranja u nRF24L01+:
+Prilikom transmisije paketa svi uređaji koji slušaju na tom istom radio kanalu će primiti poruku. Transmiter prilikom slanja dodaje adresu primatelja u poruku (tzv. *pipe*) te prijemnik s druge strane ignorira sve poruke koje nemaju tu adresu. Ukupna veličina adrese je *5 byte*-ova (40 bitova). Nordic nRF24L01+ modul može istovremeno slušati poruke sa **6 pipe-ova**. Ti pipe-ovi omogućavaju nRF24 istovremeno slušanje poruka sa 6 različitih uređaja koje imaju 6 različitih (jedinstvenih) adresa. Ovo je primjer adresiranja u nRF24L01+:
 
 ``0xF0F0F0F0AALL``
 
